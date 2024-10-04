@@ -1,0 +1,76 @@
+html {
+  font-size: 60.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Press start 2p", sans-serif;
+  color: whitesmoke;
+  background-color: black;
+  font-weight: bold;
+}
+header {
+  position: relative;
+  height: 30rem;
+  border-bottom: 8px solid white;
+  margin-bottom: 60px;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 7em;
+  top: 110px;
+}
+p.between {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5em;
+}
+button,
+input {
+  position: absolute;
+  font-size: 2.5em;
+}
+button.again {
+  top: 0;
+  left: 0;
+  width: 14rem;
+  height: 6rem;
+}
+button.check {
+  bottom: 80px;
+  left: 20rem;
+  width: 14rem;
+  height: 6rem;
+}
+input.guess {
+  bottom: 170px;
+  left: 19rem;
+  width: 16rem;
+  height: 8rem;
+  border: 2px solid white;
+  background-color: black;
+  color: azure;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+}
+.right p {
+  height: 5rem;
+  padding-left: 550px;
+  font-size: 2.5em;
+}
+.number {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  border: 5px solid white;
+  width: 15rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 250px;
+  left: 40%;
+}
